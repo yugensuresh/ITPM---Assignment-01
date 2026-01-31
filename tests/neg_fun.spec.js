@@ -8,16 +8,16 @@ test.describe('Negative Functional Tests - Singlish to Sinhala Robustness', () =
 
   // Negative Test Cases List
   const negativeScenarios = [
-    { id: 'Neg_Fun_0001', input: 'karyaalayayenlaebunulipinayaaeththatamamatalaebunenaehae', expected: 'කර්යාලයයෙන් ලැබුනු ලිපිනය ඇත්තටම මට ලැබුනෙ නැහැ' },
-    { id: 'Neg_Fun_0002', input: 'vaessaathapiyamu kandy trip eka yanna.', expected: 'වැස්සත් අපි යමු මහනුවර ට්‍රිප් එක යන්න.' },
-    { id: 'Neg_Fun_0003', input: 'shreemathvibhagaya pass kalla pvt job eka set.', expected: 'ශ්‍රීමත් විභාගය පාස් කරලා ප්‍රයිවට් ජොබ් එක සෙට්.' },
-    { id: 'Neg_Fun_0004', input: 'mama g@dhara y@n@vaa', expected: 'මම ගෙදර යනවා' },
-    { id: 'Neg_Fun_0005', input: 'mamaayethiiye kiyawapu pothha hoda nae.', expected: 'මම ආයෙත් ඊයේ කියවපු පොත හොඳ නෑ' },
-    { id: 'Neg_Fun_0006', input: 'Teamsmeetingekee linkeka WhatsAppkarannapuluwanda?', expected: 'ටීම්ස් මීටින් එකේ ලින්ක් එක වට්සැප් කරන්න පුළුවන්ද?' },
-    { id: 'Neg_Fun_0007', input: 'Rs.5343kapariganakaya mila adhikaivagee.', expected: 'රු. 5343 ක පරිගණකය මිල අධිකයි වගේ.' },
-    { id: 'Neg_Fun_0008', input: 'dhesaembar25ta colombo yanavaa kiyahankoo.', expected: 'දෙසැම්බර් 25 ට කොළඹ යනවා කියහන්කෝ.' },
-    { id: 'Neg_Fun_0009', input: '7.30AMta karala office eken off wenna ona.', expected: '7.30 ට කරලා ඔෆිස් එකෙන් off වෙන්න ඕන.' },
-    { id: 'Neg_Fun_0010', input: 'adhapaasalyanneevaeenekee trafficnisaa.', expected: 'අද පාසල් යන්නේ නෑ ඒකේ ට්‍රැෆික් නිසා' },
+    { id: 'Neg_Fun_0001', input: 'aeththatamamamaoyaavadhanneanaee.', expected: 'ඇත්තටම මම ඔයාව දන්නේ නෑ.' },
+    { id: 'Neg_Fun_0002', input: 'api nuvara gihin emu heta.', expected: 'අපි නුවර ගිහින් එමු හෙට.' },
+    { id: 'Neg_Fun_0003', input: 'pvt company ekakin service  eka kara gamu.', expected: 'ප්‍රයිවට් company එකකින් service  එක කර ගමු.' },
+    { id: 'Neg_Fun_0004', input: 'oyaa #office eka giyadha?', expected: 'ඔයා office එකට ගියාද?' },
+    { id: 'Neg_Fun_0005', input: 'mmamaayethiiye kiyawapu pothha hoda nae.', expected: 'මම ආයෙත් ඊයේ කියවපු පොත හොඳ නෑ' },
+    { id: 'Neg_Fun_0006', input: 'ape loginpage load wenne na, cacheclear karapan.', expected: 'ape login පේජ් ලෝඩ් වෙන්නෙ නැ, කෑශ් clear කරපන්.' },
+    { id: 'Neg_Fun_0007', input: 'office eka 24/7 open kiyala kiyannawa', expected: 'ඔෆිස් එක 24/7 open කියල තියෙනවා.' },
+    { id: 'Neg_Fun_0008', input: 'aiyo 3weni parata msg kala', expected: 'අයියෝ තුන්වෙනි පාරට මැසේජ් කලා.' },
+    { id: 'Neg_Fun_0009', input: '7ta class eka start wenawa', expected: 'හතට ක්ලාස් එක start වෙනවා.' },
+    { id: 'Neg_Fun_0010', input: 'yaaaaluwooo okkoma enawaa.', expected: 'යාලුවෝ ඔක්කොම එනවා.' },
   ];
 
   for (const scenario of negativeScenarios) {
