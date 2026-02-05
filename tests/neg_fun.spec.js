@@ -9,7 +9,7 @@ test.describe('Negative Functional Tests - Singlish to Sinhala Robustness', () =
   // Negative Test Cases List
   const negativeScenarios = [
     { id: 'Neg_Fun_0001', input: 'aeththatamamamaoyaavadhanneanaee.', expected: 'ඇත්තටම මම ඔයාව දන්නේ නෑ.' },
-    { id: 'Neg_Fun_0002', input: 'api nuvara gihin emu heta.', expected: 'අපි නුවර ගිහින් එමු හෙට.' },
+    { id: 'Neg_Fun_0002', input: 'api nuvara gihin emu heta.', expected: 'අපි නුවර ගිහින් එමු හෙට!' },
     { id: 'Neg_Fun_0003', input: 'pvt company ekakin service  eka kara gamu.', expected: 'ප්‍රයිවට් company එකකින් service  එක කර ගමු.' },
     { id: 'Neg_Fun_0004', input: 'oyaa #office eka giyadha?', expected: 'ඔයා office එකට ගියාද?' },
     { id: 'Neg_Fun_0005', input: 'mmamaayethiiye kiyawapu pothha hoda nae.', expected: 'මම ආයෙත් ඊයේ කියවපු පොත හොඳ නෑ' },
